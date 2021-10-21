@@ -4,6 +4,6 @@ public class Basketball extends Mannschaftssport{
 	private double zeit;
 	
 	public Basketball(){
-		this.zeit = 55;
+		super.zeit = 55;
 	}
 }
