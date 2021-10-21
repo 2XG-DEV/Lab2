@@ -17,6 +17,10 @@ public class Main {
 		radu.addSport(FcCojascaIdeciu);
 		radu.addSport(lakersBulls);
 		radu.addSport(usainBolt);
+		
+		System.out.println(radu.kalkuliereDurschnitszeit());
+		System.out.println(radu.kalkuliereZeit());
+		System.out.println(radu.kalkuliereZeit(lakersBulls));
 	}
 
 }
